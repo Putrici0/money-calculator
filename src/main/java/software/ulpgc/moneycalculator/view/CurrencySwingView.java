@@ -19,7 +19,7 @@ public class CurrencySwingView extends JFrame {
         setSize(800, 800);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        setLayout(new GridLayout(6,2));
+        setLayout(new GridLayout(5,2));
 
         add(new JLabel("    From Currency:"));
         fromCurrency = new JComboBox<>();
@@ -69,8 +69,8 @@ public class CurrencySwingView extends JFrame {
     }
 
     public void populateCurrencies(Set<String> currencies) {
-        List<String> currenciesOrdered = currencies.stream().sorted().toList();
-        for (String currency : currencies) {
+        List<String> currenciesSorted = currencies.stream().sorted().toList();
+        for (String currency : currenciesSorted) {
             fromCurrency.addItem(currency);
             toCurrency.addItem(currency);
         }
