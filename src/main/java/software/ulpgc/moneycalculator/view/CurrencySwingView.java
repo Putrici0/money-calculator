@@ -26,7 +26,7 @@ public class CurrencySwingView extends JFrame {
         add(fromCurrency);
 
 
-        add(new JLabel("    ToCurrency:"));
+        add(new JLabel("    To Currency:"));
         toCurrency = new JComboBox<>();
         add(toCurrency);
 
