@@ -22,5 +22,13 @@ El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, con las siguien
 - **Vista:** Interfaz gráfica con `Swing`.
 - **Controlador:** Gestiona la interacción entre modelo y vista.
 
+## Capturas de Pantalla
+
+**Ventana Principal del Visualizador**:
+
+<p align="left">
+  <img src="https://i.imgur.com/mfkas1O.png" alt="App" width="500" />
+</p>
+
 ---
 Este proyecto fue desarrollado como parte de los trabajos de la asignatura **Ingeniería del Software II** en la **ULPGC**.
